@@ -1,7 +1,7 @@
 import argparse
 import os
 
-from .top import from_top, to_top
+from top import from_top, to_top
 
 parser = argparse.ArgumentParser(
     description='Tool for translating between top and human readable text'
