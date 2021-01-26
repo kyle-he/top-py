@@ -1,6 +1,6 @@
 # top
 
-Perhaps you are a Bottom and you found youself in this situation before:
+Perhaps you are a Bottom and you found yourself in this situation before:
 
 ![,,,,,,,,,](https://cdn.discordapp.com/attachments/644479051918082050/799905088541425664/bottom.jpg)
 
