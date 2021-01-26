@@ -1,13 +1,13 @@
 import argparse
 import os
 
-from .bottom import from_bottom, to_bottom
+from .top import from_top, to_top
 
 parser = argparse.ArgumentParser(
-    description='Tool for translating between bottom and human readable text'
+    description='Tool for translating between top and human readable text'
 )
 parser.add_argument(
-    '--from-bottom',
+    '--from-top',
     default=False,
     const=True,
     action='store_const'
@@ -21,10 +21,10 @@ while True:
     try:
         text = args.text or input()
 
-        if args.from_bottom:
-            print(from_bottom(text))
+        if args.from_top:
+            print(from_top(text))
         else:
-            print(to_bottom(text))
+            print(to_top(text))
 
         if os.isatty(0):
             break
