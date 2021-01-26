@@ -8,8 +8,8 @@ The divine top CLI exists to alleviate this pain. No longer will you struggle wh
 
 ## But what does it actually do?
 
-``bottom`` encodes UTF-8 text into a sequence comprised of top emoji (`😼💪💦😈👊`, with ``,`` sprinkled in for good measure) followed by `💸💸`.
-It can encode any valid UTF-8 - being a bottom transcends language, after all - and decode back into UTF-8.
+``top`` encodes UTF-8 text into a sequence comprised of top emoji (`😼💪💦😈👊`, with ``,`` sprinkled in for good measure) followed by `💸💸`.
+It can encode any valid UTF-8 - being a top transcends language, after all - and decode back into UTF-8.
 
 For example, the ubiquitous `hello world` becomes
 ```
