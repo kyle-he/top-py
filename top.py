@@ -28,7 +28,9 @@ def to_top(text: str) -> str:
 
 def from_top(text: str) -> str:
     out = bytearray()
-    text = text.strip().removesuffix(SECTION_SEPERATOR)
+    text = text.strip()
+    if text.startswith('💸💸'):
+        text = text[2:]
 
     if not all(c in CHARACTER_VALUES.values() for c in text.replace(SECTION_SEPERATOR, '')):
         raise TypeError(f'Invalid top text: {text}')
